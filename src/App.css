@@ -15,6 +15,7 @@
   padding: 5vh 5vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .hero__div {
@@ -27,10 +28,6 @@ h3.hero__div__elem {
   text-transform: uppercase;
   font-size: 2rem;
   font-family: 'Bebas Neue', cursive;
-}
-
-.last {
-  margin-top: auto;
 }
 
 .orange_button {
@@ -180,6 +177,10 @@ div.conclusion__aside__elem {
 
   .hero__div__elem {
     text-align: center;
+  }
+
+  .last {
+    margin-top: auto;
   }
 
   .promo {
