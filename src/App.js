@@ -53,7 +53,7 @@ function App() {
 
         <section className="collection">
           <article className="collection__article">
-            <img className="collection__article__img" src="/images/bamboo-regular-maxi-pad.jpg"/>
+            <img className="collection__article__img" src="/images/bamboo-regular-maxi-pad.jpg" alt="bamboo regular pad"/>
             <div className="collection__article__div">
               <p className="collection__article__div__p">Bamboo Regular Pad</p>
               <h3 className="collection__article__div__h3">$3.00</h3>
@@ -61,7 +61,7 @@ function App() {
           </article>
 
           <article className="collection__article">
-            <img className="collection__article__img" src="/images/bamboo-super-maxi-pad.jpg"/>
+            <img className="collection__article__img" src="/images/bamboo-super-maxi-pad.jpg" alt="bamboo super pad"/>
             <div className="collection__article__div">
               <p className="collection__article__div__p">Bamboo Super Pad</p>
               <h3 className="collection__article__div__h3">$3.00</h3>
@@ -69,7 +69,7 @@ function App() {
           </article>
 
           <article className="collection__article">
-            <img className="collection__article__img" src="/images/bamboo-overnight-pads.jpg"/>
+            <img className="collection__article__img" src="/images/bamboo-overnight-pads.jpg" alt="bamboo overnight pad"/>
             <div className="collection__article__div">
               <p className="collection__article__div__p">Bamboo Panty Liner</p>
               <h3 className="collection__article__div__h3">$3.00</h3>
@@ -77,8 +77,7 @@ function App() {
           </article>
 
           <article className="collection__article">
-            <img className="collection__article__img" src="/images/bamboo-panty-liners.jpg"/>
-            <div className="collection__article__div">
+            <img className="collection__article__img" src="/images/bamboo-panty-liners.jpg" alt="bamboo panty liner"/>            <div className="collection__article__div">
               <p className="collection__article__div__p">Bamboo Panty Liner</p>
               <h3 className="collection__article__div__h3">$3.00</h3>
             </div>
