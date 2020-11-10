@@ -21,3 +21,4 @@ Site is deployed to https://public-goods.netlify.app/.
 ## Test with React  
 
 run `npm start` to test.\
+main html located in `src/App.js`  
