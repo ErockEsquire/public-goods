@@ -15,7 +15,6 @@
   padding: 5vh 5vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .hero__div {
@@ -27,6 +26,7 @@
 h3.hero__div__elem {
   text-transform: uppercase;
   font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .last {
@@ -169,6 +169,7 @@ div.conclusion__aside__elem {
     background-image: url(./images/menstrual-hero_mobile.jpg);
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 40rem;
   }
 
@@ -231,6 +232,7 @@ div.conclusion__aside__elem {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
   }
 
   .collection__title h2 {
