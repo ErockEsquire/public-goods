@@ -40,7 +40,7 @@ h3.hero__div__elem {
 }
 
 .promo {
-  padding: 2rem 3rem 1rem 3rem;
+  padding: 2rem 3rem 0 3rem;
 }
 
 .promo__div__first {
@@ -100,6 +100,7 @@ p.promo__div__second__elem {
 .pad_in_hand {
   background-image: url(./images/pad_in_hand_desktop.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .collection {
@@ -246,7 +247,11 @@ div.conclusion__aside__elem {
 
   .conclusion {
     background-image: url(./images/new-to-public-goods_mobile.jpg);
-    min-height: 110vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+    max-width: 100vw;
+    /* min-height: 100vh; */
   }
 
   .conclusion__elem {
@@ -260,11 +265,6 @@ div.conclusion__aside__elem {
 
   h2.conclusion__elem {
     font-size: 2rem;
-  }
-
-  p.conclusion__elem {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .conclusion__aside  {
