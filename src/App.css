@@ -1,0 +1,177 @@
+:root {
+  font-size: 16px;
+}
+
+.nav__ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero {
+  background-image: url(./images/menstrual-hero_desktop.jpg);
+  background-size: cover;
+  height: 26rem;
+  padding: 5vh 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.hero__div {
+  max-width: 20vw;
+}
+
+.hero__div__h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.orange_button {
+  color: white;
+  background-color: rgb(255, 103, 82);
+  text-align: center;
+  width: 8rem;
+  padding: 2vh 2vw;
+  cursor: pointer;
+}
+
+.promo {
+  padding: 2rem 3rem 1rem 3rem;
+}
+
+.promo__div__first {
+  background-image: url(./images/bamboo_desktop.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0;
+  margin: 1rem;
+}
+
+.promo__div__first__elem {
+  text-align: center;
+  color: white;
+}
+
+h2.promo__div__first__elem {
+  max-width: 17rem;
+  line-height: 2rem;
+}
+
+p.promo__div__first__elem {
+  max-width: 28rem;
+  line-height: 1.5rem;
+}
+
+.promo__div__second {
+  display: flex;
+}
+
+.promo__div__second__div {
+  flex: 1;
+  margin: 1rem;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2.promo__div__second__elem {
+  width: 10rem;
+  line-height: 2rem;
+}
+
+p.promo__div__second__elem {
+  width: 16rem;
+  line-height: 1.5rem;
+}
+
+.pad_detail {
+  background-image: url(./images/pad_detail_desktop.jpg);
+  background-size: cover;
+}
+
+.pad_in_hand {
+  background-image: url(./images/pad_in_hand_desktop.jpg);
+  background-size: cover;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+
+.collection__article {
+  margin: 1rem;
+}
+
+.collection__article__img {
+  max-width: 20vw;
+}
+
+.sell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.conclusion {
+  background-image: url(./images/new-to-public-goods_desktop.jpg);
+  background-size: cover;
+  height: 26rem;
+  padding: 5vh 5vw;
+}
+
+.conclusion__elem {
+  max-width: 30rem;
+  line-height: 1.5rem;
+}
+
+.conclusion__aside__p {
+  color: grey;
+}
+
+.conclusion__aside__div {
+  background-image: url(./images/press-quotes.png);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-image: url(./images/menstrual-hero_mobile.jpg)
+  }
+
+  .promo__div__first {
+    background-image: url(./images/bamboo_mobile.jpg);
+  }
+
+  .pad_detail {
+    background-image: url(./images/pad_detail_mobile.jpg);
+    background-size: cover;
+  }
+
+  .pad_in_hand {
+    background-image: url(./images/pad_in_hand_mobile.jpg);
+    background-size: cover;
+  }
+
+  .promo__div__second {
+    flex-direction: column;
+  }
+
+  .collection {
+    flex-direction: column;
+  }
+
+  .conclusion {
+    background-image: url(./images/new-to-public-goods_mobile.jpg);
+  }
+}
