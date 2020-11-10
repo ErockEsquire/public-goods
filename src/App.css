@@ -14,16 +14,23 @@
   height: 26rem;
   padding: 5vh 5vw;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .hero__div {
   max-width: 20vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.hero__div__h3 {
+h3.hero__div__elem {
   text-transform: uppercase;
   font-size: 2rem;
+}
+
+.last {
+  margin-top: auto;
 }
 
 .orange_button {
@@ -104,9 +111,22 @@ p.promo__div__second__elem {
   padding: 0 3rem;
 }
 
+.collection__title {
+  display: none;
+}
+
 .collection__article {
   margin: 1rem;
 }
+
+.collection__article__div__p {
+  margin-bottom: 0;
+}
+
+.collection__article__div__h3 {
+  margin: 0;
+}
+
 
 .collection__article__img {
   max-width: 20vw;
@@ -131,11 +151,11 @@ p.promo__div__second__elem {
   line-height: 1.5rem;
 }
 
-.conclusion__aside__p {
+p.conclusion__aside__elem {
   color: grey;
 }
 
-.conclusion__aside__div {
+div.conclusion__aside__elem {
   background-image: url(./images/press-quotes.png);
   background-size: cover;
   background-size: contain;
@@ -146,11 +166,28 @@ p.promo__div__second__elem {
 
 @media only screen and (max-width: 600px) {
   .hero {
-    background-image: url(./images/menstrual-hero_mobile.jpg)
+    background-image: url(./images/menstrual-hero_mobile.jpg);
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+  }
+
+  .hero__div {
+    max-width: 80%;
+    align-items: center;
+  }
+
+  .hero__div__elem {
+    text-align: center;
+  }
+
+  .promo {
+    padding: 1rem 1rem;
   }
 
   .promo__div__first {
     background-image: url(./images/bamboo_mobile.jpg);
+    padding: 5vh 10vh;
   }
 
   .pad_detail {
@@ -163,15 +200,75 @@ p.promo__div__second__elem {
     background-size: cover;
   }
 
+  .promo__div__second__div.pad_detail {
+    min-height: 40vh;
+  }
+
   .promo__div__second {
     flex-direction: column;
   }
 
+  .promo__div__second__div.pad_in_hand {
+    justify-content: initial;
+    align-items: center;
+    padding: 1rem;
+    min-height: 70vh;
+  }
+
+  .promo__div__second__div.pad_in_hand p, h2{
+    margin: 1rem 0 0 0;
+    text-align: center;
+  }
+
   .collection {
     flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .collection__title {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+
+  .collection__title h2 {
+    margin: 1rem;
+  }
+
+  .collection__article__img {
+    max-width: 100%;
   }
 
   .conclusion {
     background-image: url(./images/new-to-public-goods_mobile.jpg);
+    min-height: 110vh;
+  }
+
+  .conclusion__elem {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .sell {
+    margin: 0;
+  }
+
+  h2.conclusion__elem {
+    font-size: 2rem;
+  }
+
+  p.conclusion__elem {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .conclusion__aside  {
+    display: none;
+  }
+
+  .orange_button.shop {
+    display: none;
   }
 }

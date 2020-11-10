@@ -23,11 +23,11 @@ function App() {
       <main className="main">
         <section className="hero">
           <div className="hero__div">
-            <h3 className="hero__div__h3">Introducing</h3>
-            <h2 className="hero__div__h2">The first 100% biodegradable bamboo maxi pad</h2>
-            <p className="hero__div__p">The most eco-friendly menstrual care in the world is here.</p>
-            <div className="orange_button">30 day trial</div>
+            <h3 className="hero__div__elem">Introducing</h3>
+            <h2 className="hero__div__elem">The first 100% biodegradable bamboo maxi pad</h2>
+            <p className="hero__div__elem">The most eco-friendly menstrual care in the world is here.</p>
           </div>
+          <div className="orange_button last">30 day trial</div>
         </section>
 
         <section className="promo">
@@ -52,6 +52,9 @@ function App() {
         </section>
 
         <section className="collection">
+          <div className="collection__title">
+            <h2>The Collection</h2>
+          </div>
           <article className="collection__article">
             <img className="collection__article__img" src="/images/bamboo-regular-maxi-pad.jpg" alt="bamboo regular pad"/>
             <div className="collection__article__div">
@@ -85,25 +88,22 @@ function App() {
         </section>
 
         <section className="sell">
-          <div className="orange_button">Shop Now</div>
+          <div className="orange_button shop">Shop Now</div>
         </section>
 
         <section className="conclusion">
           <h2 className="conclusion__elem">New to Public Goods?</h2>
           <p className="conclusion__elem">We're committed to making healthier, better choices easy and affordable to all. Good-for-you, eco-friendly and beautifully designed home essentials, all in one place and at ultra-low prices.</p>
           <aside className="conclusion__aside">
-            <p className="conclusion__aside__p">As seen in:</p>
-            <div className="conclusion__aside__div" src="/images/press-quotes.png" alt="press quotes"/>
+            <p className="conclusion__aside__elem">As seen in:</p>
+            <div className="conclusion__aside__elem" src="/images/press-quotes.png" alt="press quotes"/>
           </aside>
-          <div className="orange_button">Shop Now</div>
+          <div className="orange_button shop">Shop Now</div>
         </section>
-
 
       </main>
 
-      <footer>
 
-      </footer>
     </div>
   );
 }
